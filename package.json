@@ -1,0 +1,24 @@
+{
+  "name": "crypto-cli",
+  "version": "1.0.0",
+  "description": "A Command Line Interface tool to check Cryptocurrency current values with the option to change the currency",
+  "main": "index.js",
+  "bin": "./bin/cryptocli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "CLI",
+    "Crypto"
+  ],
+  "author": "Ishan Praneethan Nadesanpillai",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^8.1.0"
+  }
+}
